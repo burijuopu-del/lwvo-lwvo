@@ -1339,7 +1339,7 @@ const LETTER_SIGN = 'Pour toujours et un jour de plus,\nrien qu\'à toi ♥';
 const GALLERY = [
   { src: 'assets/images/memories/memory-1.JPG',  caption: 'là où tout a commencé ✿' },
   { src: 'assets/images/memories/memory-2.JPG',  caption: 'juste nous deux ♥' },
-  { src: 'assets/images/memories/memory-3.jpeg', caption: 'ce petit rire qui me perd' },
+  { src: 'assets/images/memories/memory-3.jpeg', caption: 'ce petit sourire qui me perd' },
   { src: 'assets/images/memories/memory-4.jpeg', caption: 'ma vue préférée' },
   { src: 'assets/images/memories/memory-5.jpeg', caption: 'chaque petit moment' },
   { src: 'assets/images/memories/memory-6.jpeg', caption: 'encore plein de chemin à faire ✦' },
