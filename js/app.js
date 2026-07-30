@@ -139,9 +139,9 @@ const LOVE_LETTER = `Ma très chère [NAME], ma bunny chan,
 
 J'ai fabriqué tout ça — le chemin, les jeux, les petits puzzles un peu bêtes — pour une seule raison : te dire, autrement, ce que j'oublie parfois de dire à voix haute.
 
-Tu es mon chapitre préféré de chaque journée. Les jours calmes, les jours bruyants, ceux où j'oublie mes clés et où tu te moques gentiment de moi quand même.
+Tu es mon chapitre préféré de chaque journée. Les jours calmes, les jours bruyants, ceux où j'oublie tes sedapp et où tu te moques gentiment de moi quand même.
 
-Merci d'être toi. Merci d'être à moi.
+Merci d'être toi. Merci d'être là.
 Je t'aime, bunny chan. Pour toujours et un jour de plus. ✿`;
 
 /* ============== Sound (Howler) ============== */
@@ -482,7 +482,7 @@ function startMapDecor(){
     if(state.current !== 'screen-map') return;
     const c = document.createElement('div');
     c.className = 'deco-creature';
-    c.textContent = ['🦋','🐦','🌸','✿'][Math.floor(Math.random()*4)];
+    c.textContent = ['🎀','🐇','🌸','🍓'][Math.floor(Math.random()*4)];
     c.style.top = (15 + Math.random()*55) + '%';
     c.style.animationDuration = (14 + Math.random()*10) + 's';
     c.style.fontSize = (18 + Math.random()*14) + 'px';
